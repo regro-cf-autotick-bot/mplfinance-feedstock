@@ -1,5 +1,5 @@
 {% set name = "mplfinance" %}
-{% set version = "0.12.9b5" %}
+{% set version = "0.12.9b7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4efa30fdfbe8bebbc44dc3f651702c1fa730a3553352e6373f97de8b88df6fa5
+  sha256: 8c0ef47dfb465ea95b7c3577e261b57b5d6ad2bce6d287a17b8b4dd2fbacc92e
 
 build:
   noarch: python
